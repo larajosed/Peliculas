@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" type="module" defer></script>
+    <script src="js/src/main.js" type="module" defer></script>
     <title>Proyecto Peliculas</title>
 </head>
 
@@ -28,31 +28,7 @@
             </ul>
         </nav>
 
-        <section class="content">
-            <article class="peli-item">
-                <h3 class="tittle">Desarrollo web</h3>
-                <p class="description">Jose Lara</p>
-
-                <button class="edit">Editar</button>
-                <button class="delete">Borrar</button>
-            </article>
-
-            <article class="peli-item">
-                <h3 class="tittle">Desarrollo web</h3>
-                <p class="description">Jose Lara</p>
-
-                <button class="edit">Editar</button>
-                <button class="delete">Borrar</button>
-            </article>
-
-            <article class="peli-item">
-                <h3 class="tittle">Desarrollo web</h3>
-                <p class="description">Jose Lara</p>
-
-                <button class="edit">Editar</button>
-                <button class="delete">Borrar</button>
-            </article>
-
+        <section id="content" class="content">
             <article class="peli-item">
                 <h3 class="tittle">Desarrollo web</h3>
                 <p class="description">Jose Lara</p>
@@ -74,9 +50,9 @@
             <div class="add">
                 <h3 class="tittle">Añadir Peliculas</h3>
                 <form>
-                    <input type="text" placeholder="Titulo">
-                    <textarea placeholder="Descripcion"></textarea>
-                    <input type="submit" value="Gurdar">
+                    <input type="text" id="tittle" placeholder="Titulo">
+                    <textarea id="description" placeholder="Descripcion"></textarea>
+                    <input type="submit" id="save" value="Gurdar">
                 </form>
             </div>
         </aside>
