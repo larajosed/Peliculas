@@ -14,7 +14,6 @@ export default class App {
         this.add.peliSave();
 
         const pelis = this.storage.getData();
-
         this.list.show(pelis);
 
         console.log("La aplicación de peliculas a sido iniciada");
