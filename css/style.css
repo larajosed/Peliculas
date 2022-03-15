@@ -155,7 +155,11 @@ padding: 20px;
 
 .lateral input[type="text"],
 .lateral input[type="text"],
-.lateral textarea{
+.lateral textarea,
+.edit_form input[type="text"],
+.edit_form input[type="text"],
+.edit_form textarea
+{
     display: block;
     margin: 0 auto;
     margin-top: 15px;
@@ -167,6 +171,11 @@ padding: 20px;
     opacity: 4;
     outline: 0;
     border-color: transparent;
+}
+
+.edit_form{
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
 }
 
 .footer{
