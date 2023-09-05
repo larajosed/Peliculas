@@ -1,0 +1,15 @@
+.container .title1{
+    text-align: center;
+}
+.title1{
+    margin-top: 60px;
+}
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+  }
+.formIni{
+   max-width: 500px;   
+}
